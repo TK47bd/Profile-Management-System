@@ -1,0 +1,145 @@
+*{
+      	margin            : 0;
+	      padding           : 0;
+}
+
+body{
+	      background        : black; 
+}
+
+#Wrapper{
+        width             : 60%;
+        height            : 370px;
+        background        : #faf3b9;
+        margin            : 0 auto;
+        margin-top        : 150px;
+}
+
+.Nav_menu{
+
+}
+
+.search_for{
+       height            : 30px;
+       width             : 80%;
+       border            : 1px solid black;
+       margin            : 0 auto;
+}
+
+.add_img{
+       border            : 0.5px solid black;
+       height            : 95%;
+       float             : left;
+       width             : 4%;
+}
+
+.add_img img{
+       width             : 97%;
+       height            : 100%;
+}
+
+.add_img img:hover{
+       padding           : 1px;
+       cursor            : pointer; 
+}
+
+.sub_img{
+       border            : 0.5px solid black;
+       height            : 95%;
+       float             : right;
+       width             : 4%;
+}
+
+.sub_img img{
+       width             : 97%;
+       height            : 100%;
+}
+
+.sub_img img:hover{
+       padding           : 1px;
+       cursor            : pointer; 
+}
+
+.search_for .search_box{
+       margin-top        : 5px;
+}
+
+.search_for h4{
+       display           : inline;
+}
+
+.searching{
+       width             : 25%;
+}
+
+#btn{
+       width             : 10%;
+       background        : #37FD90;
+       transition        : all linear 0.3s;
+}
+
+#btn:hover{
+       color             : #fff;
+       cursor            : pointer;
+       background        : #000;
+}
+
+
+.Table_view{
+        margin            : 0 auto;
+        width             : 80%; 
+        padding           : 30px;
+        height            : 215px;
+        overflow          : auto;
+        border            : 1px solid black; 
+}
+
+.record_table{
+        margin            : 0 auto;
+        width             : 98%;
+}
+
+table,th,td{
+        border           : 1px solid;
+        text-align       : center;
+        background       : #e7e5e8;
+        font-family      : Arial; 
+}
+
+input[type=submit]{
+        width            : 100%;
+        background       : #a5e6d0;
+        padding          : 1px;
+        color            : black;
+        font-weight      : bold; 
+}
+
+input[type=submit]:hover{
+        color            : #fff;
+        cursor           : pointer;
+        background       : #000;
+}
+
+.record_table a{
+        text-decoration  : black; 
+        color            : #7288b8;
+}
+
+.record_table a:hover{
+        color            : #1f335e; 
+}
+
+.btns input[ID=DB]{
+       width            : 25%;
+       padding          : 3px;
+       background       : #37FD90;
+       color            : black;
+       font-weight      : bold;
+       margin-top       : 1%;
+}
+
+.btns input[ID=DB]:hover{
+       color             : #fff;
+       cursor            : pointer;
+       background        : #000;
+}

@@ -1,0 +1,84 @@
+*{
+      margin         : 0;
+      padding        : 0;
+}
+
+#Wrapper{
+      border         : 1px solid black;
+      margin         : 0 auto;
+      width          : 48%;
+      height         : 65%;
+      margin-top     : 9%;      
+}
+
+p{
+      padding        : 2px;
+      text-align     : right;
+}
+
+input[type=text]{
+      padding        : 3px;
+      margin-bottom  : 1%;
+}
+
+input[type=Email]{
+      padding        : 3px;
+      margin-bottom  : 1%;
+}
+
+input[type=Password]{
+      padding        : 3px;
+      margin-bottom  : 1%;
+}
+
+input[type=submit]{
+      padding        : 3px;
+      margin-top     : 1%;
+}
+
+td{
+     padding         : 2px;
+}
+
+input[class=btn]{
+    width             : 15%;
+    padding           : 2px;
+    background        : #37FD90;
+    color             : black;
+    font-weight       : bold;
+}
+
+input[class=btn]:hover{
+    color             : #fff;
+    cursor            : pointer;
+    background        : #000;
+}
+
+form{
+      display        : inline;
+}
+
+input[type=file]{
+      padding        : 3px;
+      margin-bottom  : 1%;
+}
+
+h5{
+      padding        : 2px;
+      text-align     : left;
+}
+
+input[value=Upload]{
+      margin-left    : 0.5%;
+}
+
+input[value=Dashboard]{
+    width             : 15%;
+    padding           : 2px;
+    background        : #a5e6d0;
+    color             : black;
+    font-weight       : bold;
+    float             : right;
+    margin-right      : 0.5%;
+}
+

@@ -1,0 +1,48 @@
+*{
+   margin       : 0;
+   padding      : 0;
+}
+
+#wrapper{
+   padding      : 10px;
+   width        : 25%;
+   border       : 1px solid black;
+   margin       : 0 auto;
+   margin-top   : 10%;
+
+}
+
+p, .ID{
+   margin-top : 10px;
+}
+
+input[type="submit"]{
+
+   padding      : 3px;
+
+}
+
+
+input[type="submit"]:hover{
+    
+   color        : #fff;
+   cursor       : pointer;
+   background   : #000;
+
+}
+
+
+input[name="Submit"]{
+
+   margin-right : 5px;
+   background   : #ff4336;
+   color        : black;
+
+}
+
+input[name="DB"]{
+
+   background   : #a5e6d0;
+   color        : black; 
+
+}

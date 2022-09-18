@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #565151;
+}
+
+#wrapper {
+  height: 500px;
+  width: 65%;
+  background: #c3c2bc;
+  margin: 0 auto;
+  margin-top: 75px;
+  box-shadow: 5px 5px 15px 13px #3e3c3c;
+  border-radius: 10px;
+}
+
+.Header_tab {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(45deg, #cb5656, transparent);
+}
+
+.Header_tab a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header_tab a:hover {
+  color: skyblue;
+}
+
+.User_name {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.welcome_user {
+  padding: 10px;
+}
+
+.here_after::after {
+  background-size: 100% 100%;
+  display: inline-block;
+  width: 9%;
+  height: 22px;
+  background-repeat: no-repeat;
+  content: "";
+  border: 0.5px solid black;
+}
+
+.Logout_pane {
+  width: 40%;
+  height: 100%;
+  float: right;
+}
+
+.Logout_user {
+  padding: 15px;
+  float: right;
+}
+.Logout_user > h4 > a {
+  background: #f16a6a;
+  padding: 5px;
+  border-radius: 8px;
+}
+.Logout_user > h4 > a:hover {
+  background: black;
+  color: white;
+}
+
+.lower_cont {
+  height: 450px;
+  width: 100%;
+}
+
+.left_Sidebar {
+  float: left;
+  height: 100%;
+  width: 19.5%;
+  border: 0.5px solid #565151;
+}
+
+.inst_inf {
+  height: 30%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 0.5px solid black;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.ins_img {
+  height: 40%;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 0.5px solid black;
+}
+
+.ins_img img {
+  width: 99%;
+  height: 99%;
+}
+
+.ins_name {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  padding: 3px;
+}
+
+.ins_loc {
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+
+.Other_menu {
+  height: 60%;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #565151;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.Other_menu a {
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.Other_menu a:hover {
+  color: skyblue;
+}
+
+.Section {
+  float: right;
+  height: 100%;
+  width: 79.8%;
+  border: 1px solid black;
+}
+
+.nav_menu {
+  height: 30px;
+  width: 80%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.nav_menu ul {
+  list-style-type: none;
+}
+
+.nav_menu ul li {
+  text-align: center;
+  width: 30%;
+  padding: 6px;
+  float: left;
+  border-left: 1px solid black;
+  box-shadow: 1px 8px 8px -3px black;
+}
+.nav_menu ul li:hover {
+  background: #565151;
+}
+
+.nav_menu ul li:first-child {
+  border-left: none;
+}
+
+.nav_menu ul li a {
+  text-decoration: none;
+  color: rgb(104, 173, 201);
+  font-weight: 500;
+}
+
+.nav_menu ul li a:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.search_for {
+  height: 30px;
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.search_for .search_box {
+  margin-top: 5px;
+}
+
+.search_for h4 {
+  display: inline;
+}
+
+.searching {
+  width: 25%;
+}
+
+.btn {
+  width: 10%;
+  background: #37fd90;
+  transition: all linear 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+  cursor: pointer;
+  background: #000;
+}
+
+.show_res {
+  border: 1px solid black;
+  height: 215px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 4px 4px 8px -2px black;
+}
+
+.src_img {
+  border: 1px solid black;
+  width: 16%;
+  height: 78px;
+  padding: 5px;
+  margin-left: 2%;
+  margin-top: 3%;
+  display: inline;
+  float: left;
+}
+
+.src_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.src_name {
+  float: left;
+  padding: 12px;
+}
+
+.src_det {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.src_brf {
+  margin-top: 10px;
+  margin-left: 1%;
+  float: left;
+  width: 90%;
+  height: 90px;
+  margin-left: 2%;
+}
+
+.src_brf a {
+  text-decoration: none;
+}
+
+.src_brf a:hover {
+  color: gray;
+}
+
+#credit_footr {
+  background-color: RGBA(23, 23, 23, 0.8);
+  margin-top: 35px;
+  width: 50%;
+}
+
+#credit_footr p {
+  text-align: center;
+  color: gray;
+  font-family: Arial;
+  font-size: 11px;
+  padding: 6px;
+}
+
+#credit_footr a {
+  text-decoration: none;
+  color: gray;
+}
+
+#Lbutton {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font-family: arial, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#Lbutton:hover {
+  color: #069;
+  cursor: pointer;
+}
+
+#Lbutton:focus {
+  outline: 0;
+}
